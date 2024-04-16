@@ -11,6 +11,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #ffffff;
 }
 
 a {
@@ -25,24 +26,24 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-dark-color);
+    color: #4d5ae5;
 }
 
 .logo-accent {
-    color: var(--brand-color);
+    color: #2e2f42;
 }
 
 .nav-link {
-    color: var(--primary-dark-color);
+    color: #2e2f42;
     font-weight: 500;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--brand-dark-color);
+    color: #404bbf;
 }
 
 .contact-address {
@@ -55,12 +56,12 @@ ul {
 
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--brand-color);
+    color: #4d5ae5;
 }
 
 .hero-section {
     padding: 188px 0;
-    background-color: var(--primary-dark-color);
+    background-color: #2e2f42;
 }
 
 .hero-title {
@@ -92,7 +93,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--primary-dark-color);
+    color: #2e2f42;
 }
 
 .our-team-section {
@@ -110,14 +111,14 @@ ul {
     line-height: 1.11111;
     text-transform: capitalize;
     text-align: center;
-    color: var(--primary-dark-color);
+    color: #2e2f42;
 }
 
 .our-team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--primary-dark-color);
+    color: #2e2f42;
     background-color: #fff;
 }
 
@@ -125,12 +126,12 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--primary-dark-color);
+    color: #2e2f42;
 }
 
 .footer-box {
     padding: 188px 0;
-    background-color: var(--primary-dark-color);
+    background-color: #2e2f42;
 }
 
 .logo-footer {
@@ -140,6 +141,10 @@ ul {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-footer-accent {
     color: #f4f4fd;
 }
 
