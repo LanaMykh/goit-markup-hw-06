@@ -71,12 +71,12 @@ ul {
 .button {
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: #fff;
     background-color: #4d5ae5;
     padding: 16px 32px;
     cursor: pointer;
     border: none;
-    border-radius: 4px;
 }
 
 .button:hover,
