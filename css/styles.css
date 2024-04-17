@@ -1,9 +1,3 @@
-:root {
-    --primary-dark-color: #2e2f42;
-    --brand-color: #4d5ae5;
-    --brand-dark-color: #404bbf;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
