@@ -46,20 +46,26 @@ img {
     padding-bottom: 120px;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;
+    /*height: 72px;*/
 }
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-link {
     display: flex;
     gap: 40px;
+    padding: 24px 0
 }
 
 .contact-address-link {
@@ -181,6 +187,7 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .our-team-title {
@@ -208,17 +215,17 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .footer-box {
     background-color: #2e2f42;
     height: 312px;
-    padding-top: 100;
+    padding: 100px 0;
 }
 
 .footer-container {
-    height: 112px;
-    width: 264px;
+    max-width: 264px;
 }
 
 .logo-footer {
@@ -229,6 +236,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer-accent {
