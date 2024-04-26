@@ -116,7 +116,7 @@ img {
 .hero-section {
     background-color: #2e2f42;
     height: 600px;
-    padding-top: 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -131,7 +131,7 @@ img {
     margin-left: 316px;
     margin-right: 316px;
     height: 120px;
-    width: 496px;
+    max-width: 496px;
 }
 
 .button {
@@ -143,9 +143,10 @@ img {
     cursor: pointer;
     border: none;
     display: block;
-    height: 54;
-    width: 168;
-    margin-top: 48;
+    max-height: 56px;
+    max-width: 168px;
+    /*margin-top: 48;*/
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -220,7 +221,7 @@ img {
 
 .footer-box {
     background-color: #2e2f42;
-    height: 312px;
+    /*height: 312px;*/
     padding: 100px 0;
 }
 
