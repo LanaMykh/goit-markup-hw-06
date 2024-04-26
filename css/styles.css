@@ -143,10 +143,11 @@ img {
     cursor: pointer;
     border: none;
     display: block;
-    max-height: 56px;
-    max-width: 168px;
-    /*margin-top: 48;*/
+    height: 56px;
+    min-width: 168px;
     border-radius: 4px;
+    margin-left: 495px;
+    margin-right: 495px;
 }
 
 .button:hover,
@@ -156,20 +157,29 @@ img {
 
 .our-advantage-list {
     display: flex;
+    gap: 24px;
 }
 
 .our-advantage-title {
+    visibility: hidden;
+}
+
+.our-advantage-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.our-advantage-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .our-team-list {
     display: flex;
-    column-gap: 20px;
-    /*calc((1158-3)/4)*/
+    column-gap: 24px;
 }
 
 .our-team-section {
