@@ -144,7 +144,7 @@ img {
     border: none;
     display: block;
     height: 56px;
-    min-width: 168px;
+    min-width: 169px;
     border-radius: 4px;
     margin-left: 495px;
     margin-right: 495px;
@@ -160,8 +160,8 @@ img {
     gap: 24px;
 }
 
-.our-advantage-title {
-    visibility: hidden;
+.visually-hidden {
+    display: none;
 }
 
 .our-advantage-list-title {
