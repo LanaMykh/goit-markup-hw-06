@@ -160,8 +160,8 @@ img {
     gap: 24px;
 }
 
-.visually-hidden {
-    overflow: hidden;
+.visually-hidden-title {
+    @include visually-hidden;
 }
 
 .our-advantage-list-title {
