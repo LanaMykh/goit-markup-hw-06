@@ -160,8 +160,17 @@ img {
     gap: 24px;
 }
 
-.visually-hidden-title {
-    @include visually-hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .our-advantage-list-title {
@@ -177,9 +186,15 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
+.mane-list-img {
+    padding: 32px 0;
+
+}
+
 .our-team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-section {
@@ -217,6 +232,8 @@ img {
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .our-portfolio-title {
