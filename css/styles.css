@@ -185,8 +185,9 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.mane-list-img {
-    padding: 32px 16px;
+.our-team-person {
+    padding: 32px 0;
+
 }
 
 .our-team-list {
@@ -236,6 +237,11 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.our-portfolio-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-title {
