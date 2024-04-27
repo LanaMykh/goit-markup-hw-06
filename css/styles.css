@@ -54,7 +54,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*height: 72px;*/
 }
 
 .nav {
@@ -194,7 +193,6 @@ img {
 .our-team-list {
     display: flex;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-section {
@@ -203,6 +201,8 @@ img {
 
 .our-team-card {
     background-color: #fff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-title {
@@ -223,10 +223,13 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #fff;
+    text-align: center;
+    margin-bottom: 8px
 }
 
 .our-team-paragraph {
     font-size: 16px;
+    text-align: center;
 }
 
 .our-portfolio-list {
@@ -242,18 +245,12 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
-    margin-bottom: 72px;
+    margin-bottom: 8px
 }
 
 .footer-box {
     background-color: #2e2f42;
-    /*height: 312px;*/
     padding: 100px 0;
-}
-
-.footer-container {
-    max-width: 264px;
 }
 
 .logo-footer {
@@ -274,4 +271,5 @@ img {
 
 .footer-p {
     color: #f4f4fd;
+    max-width: 264px;
 }
