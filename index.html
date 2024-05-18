@@ -421,7 +421,125 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label
+              for="footer-subscribe-form-user-email"
+              class="footer-ubscribe-form-label"
+            >
+              <input
+                class="footer-subscribe-form-input"
+                id="footer-subscribe-form-user-email"
+                type="email"
+                name="footer-subscribe-form-user-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="footer-subscribe-form-button" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <!-- =================BACKDROP============== -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btm" type="button">
+          <svg class="modal-close-btm-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="rewie-form">
+          <div class="rewie-form-field">
+            <label for="user-name" class="rewie-form-field-label">Name</label>
+            <div class="rewie-form-field-wrapper">
+              <input
+                type="text"
+                class="rewie-form-input"
+                id="user-name"
+                name="user-name"
+                required
+              />
+              <svg class="rewie-form-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="rewie-form-field">
+            <label for="user-phone" class="rewie-form-field-label">Phone</label>
+            <div class="rewie-form-field-wrapper">
+              <input
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                class="rewie-form-input"
+                required
+              />
+              <svg class="rewie-form-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="rewie-form-field">
+            <label for="user-email" class="rewie-form-field-label">Email</label>
+            <div class="rewie-form-field-wrapper">
+              <input
+                type="email"
+                class="rewie-form-input"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg class="rewie-form-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="rewie-form-textarea">
+            <label for="user-comment" class="rewie-form-textarea-label"
+              >Comment</label
+            >
+            <textarea
+              class="rewie-form-textarea-message"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              required
+            >
+            </textarea>
+          </div>
+
+          <div class="rewie-form-field">
+            <input
+              class="modal-check visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              required
+            />
+            <label for="user-privacy" class="chek-text">
+              <span class="chek-text-span">
+                <svg class="checkmark-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privace-link">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="review-form-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
